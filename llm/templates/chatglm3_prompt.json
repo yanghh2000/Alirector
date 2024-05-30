@@ -1,0 +1,9 @@
+{
+    "description": "",
+    "prompt_input": "\n对输入句子进行语法纠错，并输出正确的句子。\nInput:{source}\n",
+    "align_prompt": "\n对齐Input中用\t分隔的两个句子，并输出没有语法错误的句子。\nInput:{input}\n",
+    "prompt_no_input": "",
+    "response_split": "\n<|assistant|>",
+    "user_token": "<|user|>",
+    "assistant_token": "<|assistant|>"
+}
