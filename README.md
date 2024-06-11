@@ -77,4 +77,4 @@ bash llm/scripts/train_alignment_distall.sh
 ## Predict and Evaluate
 For predicting, please use `llm/src/predict.py` or `seq2seq/src/predict.py`.
 
-For evaluation, we adopt the [ChERRANT scorer](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers) for FCGEC and NaCGEC, and  [M2Scorer](https://github.com/nusnlp/m2scorer). For their usage, please refer to [this script](https://github.com/HillZhang1999/MuCGEC/blob/main/scorers/ChERRANT/evaluate.sh).
+For evaluation, we adopt the [ChERRANT scorer](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers) to calculate character-level P/R/F0.5 for FCGEC and NaCGEC, and [M2Scorer](https://github.com/nusnlp/m2scorer) to calculate word-level P/R/F0.5 for NLPCC18-Test. For the usage, please refer to [this script](https://github.com/HillZhang1999/MuCGEC/blob/main/scorers/ChERRANT/evaluate.sh).
