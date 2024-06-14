@@ -13,6 +13,4 @@ def split(path, stage1_ratio, stage1_path, stage2_path):
         json.dump(data2, f)
 
 if __name__ == '__main__':
-    # split('data/MuCGEC/train.json', 0.7, 'data/MuCGEC/train_stage1.json', 'data/MuCGEC/train_stage2.json')
-    data = json.load(open('data/MuCGEC/train.json'))[:2]
-    json.dump(data, open('data/MuCGEC/train_examples.json', 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
+    split('data/MuCGEC/train.json', 0.7, 'data/MuCGEC/train_stage1.json', 'data/MuCGEC/train_stage2.json')
