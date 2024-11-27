@@ -78,3 +78,18 @@ bash llm/scripts/train_alignment_distall.sh
 For predicting, please use `llm/src/predict.py` or `seq2seq/src/predict.py`.
 
 For evaluation, we adopt the [ChERRANT scorer](https://github.com/HillZhang1999/MuCGEC/tree/main/scorers) to calculate character-level P/R/F0.5 for FCGEC and NaCGEC, and [M2Scorer](https://github.com/nusnlp/m2scorer) to calculate word-level P/R/F0.5 for NLPCC18-Test. For the usage, please refer to [this script](https://github.com/HillZhang1999/MuCGEC/blob/main/scorers/ChERRANT/evaluate.sh).
+
+## Citation
+
+If you find our work helpful, please cite us as:
+
+```
+@inproceedings{yang-quan-2024-alirector,
+    title = "Alirector: Alignment-Enhanced {C}hinese Grammatical Error Corrector",
+    author = "Yang, Haihui and Quan, Xiaojun",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    year = "2024",
+}
+```
+
+Link on ACL Anthology: https://aclanthology.org/2024.findings-acl.148/
